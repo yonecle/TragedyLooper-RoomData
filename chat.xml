@@ -1,0 +1,5 @@
+<chat-tab-list>
+  <chat-tab name="共有チャット"></chat-tab>
+  <chat-tab name="主人公"></chat-tab>
+  <chat-tab name="脚本家"></chat-tab>
+</chat-tab-list>
