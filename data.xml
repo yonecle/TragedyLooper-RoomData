@@ -941,7 +941,7 @@
 //敏捷A=10
 //格闘＝１</chat-palette>
   </character>
-  <card-stack location.name="table" location.x="275" location.y="1675" posZ="0" rotate="0" zindex="827" owner="" isShowTotal="true">
+  <card-stack location.name="table" location.x="725" location.y="1650" posZ="0" rotate="90" zindex="848" owner="" isShowTotal="true">
     <data name="card-stack">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
@@ -1521,7 +1521,7 @@
       </card>
     </node>
   </card-stack>
-  <card-stack location.name="table" location.x="1125" location.y="1650" posZ="0" rotate="0" zindex="826" owner="" isShowTotal="true">
+  <card-stack location.name="table" location.x="1125" location.y="1650" posZ="0" rotate="0" zindex="849" owner="" isShowTotal="true">
     <data name="card-stack">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
@@ -2049,7 +2049,76 @@
       </card>
     </node>
   </card-stack>
-  <card location.name="table" location.x="575" location.y="1725" posZ="0" state="0" rotate="0" owner="" zindex="828">
+  <card-stack location.name="table" location.x="100" location.y="1625" posZ="0" rotate="0" zindex="853" owner="" isShowTotal="true">
+    <data name="card-stack">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+      </data>
+      <data name="common">
+        <data name="name">山札</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+    <node name="cardRoot">
+      <card location.name="a7ed82ab-408e-4661-a5f6-2842325043e2" location.x="1050" location.y="1975" posZ="0" state="1" rotate="0" owner="" zindex="0">
+        <data name="card">
+          <data name="image">
+            <data type="image" name="imageIdentifier"></data>
+            <data type="image" name="front">56a9cef1ea8ca1537e3b89100c586d6b67d23932f37aa618ff31e6c81a8df5ba</data>
+            <data type="image" name="back">aec664692a0c3fc73a5224578fbfb6424a6233aede110df56a74bb7b45a61246</data>
+          </data>
+          <data name="common">
+            <data name="name">[ExtraA]</data>
+            <data name="size">3</data>
+          </data>
+          <data name="detail"></data>
+        </data>
+      </card>
+      <card location.name="a7ed82ab-408e-4661-a5f6-2842325043e2" location.x="1050" location.y="1975" posZ="0" state="1" rotate="0" owner="" zindex="0">
+        <data name="card">
+          <data name="image">
+            <data type="image" name="imageIdentifier"></data>
+            <data type="image" name="front">ff2771c0a2636517f748d050fcdddbfdb6f8132e61b56fe38a75709cca754880</data>
+            <data type="image" name="back">aec664692a0c3fc73a5224578fbfb6424a6233aede110df56a74bb7b45a61246</data>
+          </data>
+          <data name="common">
+            <data name="name">[ExtraB]</data>
+            <data name="size">3</data>
+          </data>
+          <data name="detail"></data>
+        </data>
+      </card>
+      <card location.name="a7ed82ab-408e-4661-a5f6-2842325043e2" location.x="1050" location.y="1950" posZ="0" state="1" rotate="0" owner="" zindex="0">
+        <data name="card">
+          <data name="image">
+            <data type="image" name="imageIdentifier"></data>
+            <data type="image" name="front">03f21e59478aabd2f180078b9320a77fbbeb58987f3974579eaba61708f34529</data>
+            <data type="image" name="back">aec664692a0c3fc73a5224578fbfb6424a6233aede110df56a74bb7b45a61246</data>
+          </data>
+          <data name="common">
+            <data name="name">[ExtraD]</data>
+            <data name="size">3</data>
+          </data>
+          <data name="detail"></data>
+        </data>
+      </card>
+      <card location.name="a7ed82ab-408e-4661-a5f6-2842325043e2" location.x="1100" location.y="2000" posZ="0" state="1" rotate="0" owner="" zindex="0">
+        <data name="card">
+          <data name="image">
+            <data type="image" name="imageIdentifier"></data>
+            <data type="image" name="front">77a713f9b33bb56add5aa545c53586c62edc8df40ba7cfce09636f4dfc73a660</data>
+            <data type="image" name="back">aec664692a0c3fc73a5224578fbfb6424a6233aede110df56a74bb7b45a61246</data>
+          </data>
+          <data name="common">
+            <data name="name">[ExtraC]</data>
+            <data name="size">3</data>
+          </data>
+          <data name="detail"></data>
+        </data>
+      </card>
+    </node>
+  </card-stack>
+  <card location.name="table" location.x="350" location.y="1675" posZ="0" state="0" rotate="0" owner="" zindex="846">
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
@@ -2063,7 +2132,7 @@
       <data name="detail"></data>
     </data>
   </card>
-  <card location.name="table" location.x="750" location.y="1725" posZ="0" state="0" rotate="0" owner="" zindex="840">
+  <card location.name="table" location.x="525" location.y="1675" posZ="0" state="0" rotate="0" owner="" zindex="847">
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
@@ -2171,6 +2240,20 @@
       <data name="common">
         <data name="name">事件</data>
         <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+  <card location.name="table" location.x="1425" location.y="1900" posZ="0" state="1" rotate="0" owner="" zindex="852">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">8e3de234a8912c8b32430dadf18aad8c09a303662552fd3027aa521167831b41</data>
+        <data type="image" name="back">8e3de234a8912c8b32430dadf18aad8c09a303662552fd3027aa521167831b41</data>
+      </data>
+      <data name="common">
+        <data name="name">[リーダー]</data>
+        <data name="size">3</data>
       </data>
       <data name="detail"></data>
     </data>
