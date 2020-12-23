@@ -1,6 +1,6 @@
 <room>
-  <game-table name="最初のテーブル" width="60" height="30" gridSize="50" imageIdentifier="3765125f74d3da47e9cd10607239567acd65d76ec082447039716ab436786d63" backgroundImageIdentifier="testTableBackgroundImage_image" backgroundFilterType="white" selected="true" gridType="0" gridColor="#000000e6"></game-table>
-  <character location.name="table" location.x="1550" location.y="975" posZ="0" rotate="0" roll="0">
+  <game-table name="最初のテーブル" width="40" height="20" gridSize="50" imageIdentifier="3765125f74d3da47e9cd10607239567acd65d76ec082447039716ab436786d63" backgroundImageIdentifier="testTableBackgroundImage_image" backgroundFilterType="white" selected="true" gridType="0" gridColor="#000000e6"></game-table>
+  <character location.name="table" location.x="950" location.y="650" posZ="0" rotate="0" roll="0">
     <data name="character">
       <data name="image">
         <data type="image" name="imageIdentifier">1ead0ed02de5d15227ce24dbb2b45d1e38df9fdf40446c1de11ca82abc0ad169</data>
@@ -8,7 +8,7 @@
       <data name="common">
         <data name="id">1</data>
         <data name="name">男子学生</data>
-        <data name="size">2</data>
+        <data name="size">1</data>
       </data>
       <data name="detail">
         <data name="リソース">
@@ -21,7 +21,7 @@
           <data name="不安臨界">2</data>
         </data>
         <data name="友好能力">
-          <data name="友好2">同一エリアの他の学生1人の不安-1</data>
+          <data name="友好2" type="note">同一エリアの他の学生1人の不安-1</data>
         </data>
       </data>
     </data>
@@ -31,7 +31,7 @@
 //敏捷A=10
 //格闘＝１</chat-palette>
   </character>
-  <character location.name="table" location.x="1900" location.y="975" posZ="0" rotate="0" roll="0">
+  <character location.name="table" location.x="1100" location.y="650" posZ="0" rotate="0" roll="0">
     <data name="character">
       <data name="image">
         <data type="image" name="imageIdentifier">86c4a07300392260be025fe70520554ae52d9c77324ff42bb5e82a147b925e24</data>
@@ -39,7 +39,7 @@
       <data name="common">
         <data name="id">2</data>
         <data name="name">女子学生</data>
-        <data name="size">2</data>
+        <data name="size">1</data>
       </data>
       <data name="detail">
         <data name="リソース">
@@ -52,7 +52,7 @@
           <data name="不安臨界">3</data>
         </data>
         <data name="友好能力">
-          <data name="友好2">同一エリアの他の学生1人の不安-1</data>
+          <data name="友好2" type="note">同一エリアの他の学生1人の不安-1</data>
         </data>
       </data>
     </data>
@@ -62,7 +62,7 @@
 //敏捷A=10
 //格闘＝１</chat-palette>
   </character>
-  <character location.name="table" location.x="2075" location.y="975" posZ="0" rotate="0" roll="0">
+  <character location.name="table" location.x="1400" location.y="650" posZ="0" rotate="0" roll="0">
     <data name="character">
       <data name="image">
         <data type="image" name="imageIdentifier">204c424f4c2f20f08688d471007282f5b90b75601d230ab80a2e12f6381f3077</data>
@@ -70,7 +70,7 @@
       <data name="common">
         <data name="id">3</data>
         <data name="name">お嬢様</data>
-        <data name="size">2</data>
+        <data name="size">1</data>
       </data>
       <data name="detail">
         <data name="リソース">
@@ -83,7 +83,7 @@
           <data name="不安臨界">1</data>
         </data>
         <data name="友好能力">
-          <data name="友好3">(制限:学都)同一エリアの他のキャラ1人の友好+1</data>
+          <data name="友好3" type="note">(制限:学校or都会)同一エリアの他のキャラ1人の友好+1</data>
         </data>
       </data>
     </data>
@@ -93,7 +93,7 @@
 //敏捷A=10
 //格闘＝１</chat-palette>
   </character>
-  <character location.name="table" location.x="1725" location.y="975" posZ="0" rotate="0" roll="0">
+  <character location.name="table" location.x="1250" location.y="650" posZ="0" rotate="0" roll="0">
     <data name="character">
       <data name="image">
         <data type="image" name="imageIdentifier">be7bed19cc44da106abfa4f6d3015cd55074d246aa7f4b5326ddb2fe1fea2392</data>
@@ -101,7 +101,7 @@
       <data name="common">
         <data name="id">4</data>
         <data name="name">委員長</data>
-        <data name="size">2</data>
+        <data name="size">1</data>
       </data>
       <data name="detail">
         <data name="リソース">
@@ -114,7 +114,7 @@
           <data name="不安臨界">2</data>
         </data>
         <data name="友好能力">
-          <data name="友好2">(1L1)リーダーが1ループ1回制限カードを1枚回収</data>
+          <data name="友好2" type="note">(1L1)リーダーが1ループ1回制限カードを1枚回収</data>
         </data>
       </data>
     </data>
@@ -124,7 +124,7 @@
 //敏捷A=10
 //格闘＝１</chat-palette>
   </character>
-  <character location.name="table" location.x="1900" location.y="1200" posZ="0" rotate="0" roll="0">
+  <character location.name="table" location.x="1250" location.y="800" posZ="0" rotate="0" roll="0">
     <data name="character">
       <data name="image">
         <data type="image" name="imageIdentifier">3b9683baeea7d06a9c96baa3e8e3091933420c81af94585450103f3024f52b46</data>
@@ -132,7 +132,7 @@
       <data name="common">
         <data name="id">5</data>
         <data name="name">イレギュラー</data>
-        <data name="size">2</data>
+        <data name="size">1</data>
       </data>
       <data name="detail">
         <data name="リソース">
@@ -141,11 +141,11 @@
           <data name="暗躍" type="numberResource" currentValue="0">3</data>
         </data>
         <data name="情報">
-          <data type="" name="特性">役職「パーソン」以外の、非設定ルールの役職を配役</data>
+          <data type="note" name="特性">役職「パーソン」以外の、非設定ルールの役職を配役</data>
           <data name="不安臨界">3</data>
         </data>
         <data name="友好能力">
-          <data name="友好3">(第2ループ以降、非拒否)自身の役職公開</data>
+          <data name="友好3" type="note">(第2ループ以降、拒否不可)自身の役職公開</data>
         </data>
       </data>
     </data>
@@ -155,7 +155,7 @@
 //敏捷A=10
 //格闘＝１</chat-palette>
   </character>
-  <character location.name="table" location.x="1750" location.y="225" posZ="0" rotate="0" roll="0">
+  <character location.name="table" location.x="1150" location.y="150" posZ="0" rotate="0" roll="0">
     <data name="character">
       <data name="image">
         <data type="image" name="imageIdentifier">d46673b3357de0c3d03139e5adfab23c8c5eaa1a2df9a7b3602f5d123bfb1d79</data>
@@ -163,7 +163,7 @@
       <data name="common">
         <data name="id">6</data>
         <data name="name">巫女</data>
-        <data name="size">2</data>
+        <data name="size">1</data>
       </data>
       <data name="detail">
         <data name="リソース">
@@ -176,8 +176,8 @@
           <data name="不安臨界">2</data>
         </data>
         <data name="友好能力">
-          <data name="友好3">(制限:神社)神社の暗躍-1</data>
-          <data name="友好5">(1L1)同一エリアのキャラ1人の役職公開</data>
+          <data name="友好3" type="note">(制限:神社)神社の暗躍-1</data>
+          <data name="友好5" type="note">(1L1)同一エリアのキャラ1人の役職公開</data>
         </data>
       </data>
     </data>
@@ -187,7 +187,7 @@
 //敏捷A=10
 //格闘＝１</chat-palette>
   </character>
-  <character location.name="table" location.x="1975" location.y="450" posZ="0" rotate="0" roll="0">
+  <character location.name="table" location.x="1300" location.y="300" posZ="0" rotate="0" roll="0">
     <data name="character">
       <data name="image">
         <data type="image" name="imageIdentifier">8dff7bde94e69670f2c6ed95190d58e672917650c9fa8cf556bdaaed4f6280c7</data>
@@ -195,7 +195,7 @@
       <data name="common">
         <data name="id">7</data>
         <data name="name">異世界人</data>
-        <data name="size">2</data>
+        <data name="size">1</data>
       </data>
       <data name="detail">
         <data name="リソース">
@@ -208,8 +208,8 @@
           <data name="不安臨界">2</data>
         </data>
         <data name="友好能力">
-          <data name="友好4">(1L1)同一エリアの他のキャラ1人の殺害</data>
-          <data name="友好5">(1L1)同一エリアの死体1つの蘇生</data>
+          <data name="友好4" type="note">(1L1)同一エリアの他のキャラ1人の殺害</data>
+          <data name="友好5" type="note">(1L1)同一エリアの死体1つの蘇生</data>
         </data>
       </data>
     </data>
@@ -219,7 +219,7 @@
 //敏捷A=10
 //格闘＝１</chat-palette>
   </character>
-  <character location.name="table" location.x="1975" location.y="225" posZ="0" rotate="0" roll="0">
+  <character location.name="table" location.x="1300" location.y="150" posZ="0" rotate="0" roll="0">
     <data name="character">
       <data name="image">
         <data type="image" name="imageIdentifier">6138fdd3e1d4deab7e69f1f1920b45e1373e94dd2a5829de5f8200aae0513c86</data>
@@ -227,7 +227,7 @@
       <data name="common">
         <data name="id">8</data>
         <data name="name">神格</data>
-        <data name="size">2</data>
+        <data name="size">1</data>
       </data>
       <data name="detail">
         <data name="リソース">
@@ -236,12 +236,12 @@
           <data name="暗躍" type="numberResource" currentValue="0">3</data>
         </data>
         <data name="情報">
-          <data type="" name="特性">脚本作成時の指定ループまで登場しない</data>
+          <data type="note" name="特性">脚本作成時の指定ループまで登場しない</data>
           <data name="不安臨界">3</data>
         </data>
         <data name="友好能力">
-          <data name="友好3">(1L)事件1つの犯人公開</data>
-          <data name="友好5">同一エリアのキャラかボードの暗躍-1</data>
+          <data name="友好3" type="note">(1L)事件1つの犯人公開</data>
+          <data name="友好5" type="note">同一エリアのキャラかボードの暗躍-1</data>
         </data>
       </data>
     </data>
@@ -251,7 +251,7 @@
 //敏捷A=10
 //格闘＝１</chat-palette>
   </character>
-  <character location.name="table" location.x="750" location.y="1025" posZ="0" rotate="0" roll="0">
+  <character location.name="table" location.x="400" location.y="650" posZ="0" rotate="0" roll="0">
     <data name="character">
       <data name="image">
         <data type="image" name="imageIdentifier">90c6b4c0620f83222886774a2204c56b2af253368cf107770c395a44ae1ad05b</data>
@@ -259,7 +259,7 @@
       <data name="common">
         <data name="id">9</data>
         <data name="name">刑事</data>
-        <data name="size">2</data>
+        <data name="size">1</data>
       </data>
       <data name="detail">
         <data name="リソース">
@@ -272,8 +272,8 @@
           <data name="不安臨界">3</data>
         </data>
         <data name="友好能力">
-          <data name="友好4">(1L1)発生した事件1つの犯人公開</data>
-          <data name="友好5">(1L1)同一エリアのキャラ1人に護衛カウンターを1つ置く</data>
+          <data name="友好4" type="note">(1L1)発生した事件1つの犯人公開</data>
+          <data name="友好5" type="note">(1L1)同一エリアのキャラ1人に護衛カウンターを1つ置く</data>
         </data>
       </data>
     </data>
@@ -283,7 +283,7 @@
 //敏捷A=10
 //格闘＝１</chat-palette>
   </character>
-  <character location.name="table" location.x="575" location.y="1025" posZ="0" rotate="0" roll="0">
+  <character location.name="table" location.x="250" location.y="650" posZ="0" rotate="0" roll="0">
     <data name="character">
       <data name="image">
         <data type="image" name="imageIdentifier">80d822439f452d962c4ef1e21e46f1930dec66440466ff514ee1331056319ded</data>
@@ -291,7 +291,7 @@
       <data name="common">
         <data name="id">10</data>
         <data name="name">サラリーマン</data>
-        <data name="size">2</data>
+        <data name="size">1</data>
       </data>
       <data name="detail">
         <data name="リソース">
@@ -304,7 +304,7 @@
           <data type="" name="不安臨界">2</data>
         </data>
         <data name="能力">
-          <data name="友好3">自身の役職公開</data>
+          <data name="友好3" type="note">自身の役職公開</data>
         </data>
       </data>
     </data>
@@ -314,7 +314,7 @@
 //敏捷A=10
 //格闘＝１</chat-palette>
   </character>
-  <character location.name="table" location.x="925" location.y="1025" posZ="0" rotate="-180" roll="0">
+  <character location.name="table" location.x="550" location.y="650" posZ="0" rotate="-180" roll="0">
     <data name="character">
       <data name="image">
         <data type="image" name="imageIdentifier">6c5810aa5086b30c536fe47070a62b0ecce5a9ded275267a1a00a0e52b3447b6</data>
@@ -322,7 +322,7 @@
       <data name="common">
         <data name="id">11</data>
         <data name="name">情報屋</data>
-        <data name="size">2</data>
+        <data name="size">1</data>
       </data>
       <data name="detail">
         <data name="リソース">
@@ -335,7 +335,7 @@
           <data type="" name="不安臨界">3</data>
         </data>
         <data name="友好能力">
-          <data name="友好5">(1L1)ルールXどちらか1つの公開</data>
+          <data name="友好5" type="note">(1L1)ルールXどちらか1つの公開</data>
         </data>
       </data>
     </data>
@@ -345,7 +345,7 @@
 //敏捷A=10
 //格闘＝１</chat-palette>
   </character>
-  <character location.name="table" location.x="400" location.y="1000" posZ="0" rotate="0" roll="0">
+  <character location.name="table" location.x="700" location.y="650" posZ="0" rotate="0" roll="0">
     <data name="character">
       <data name="image">
         <data type="image" name="imageIdentifier">c3f191f4337b725bc645d089a4ec39609586e712ac4047e7240647d836bac00b</data>
@@ -353,7 +353,7 @@
       <data name="common">
         <data name="id">12</data>
         <data name="name">アイドル</data>
-        <data name="size">2</data>
+        <data name="size">1</data>
       </data>
       <data name="detail">
         <data name="リソース">
@@ -377,7 +377,7 @@
 //敏捷A=10
 //格闘＝１</chat-palette>
   </character>
-  <character location.name="table" location.x="925" location.y="1200" posZ="0" rotate="0" roll="0">
+  <character location.name="table" location.x="700" location.y="800" posZ="0" rotate="0" roll="0">
     <data name="character">
       <data name="image">
         <data type="image" name="imageIdentifier">b100449dfd5c121b897a557c462027b0d5010605a956baa86a5d77a729657277</data>
@@ -385,7 +385,7 @@
       <data name="common">
         <data name="id">13</data>
         <data name="name">マスコミ</data>
-        <data name="size">2</data>
+        <data name="size">1</data>
       </data>
       <data name="detail">
         <data name="リソース">
@@ -398,8 +398,8 @@
           <data type="" name="不安臨界">2</data>
         </data>
         <data name="友好能力">
-          <data name="友好2">他のキャラの不安+1</data>
-          <data name="友好2">同一エリアのキャラ1人かボードの暗躍+1</data>
+          <data name="友好2" type="note">他のキャラの不安+1</data>
+          <data name="友好2" type="note">同一エリアのキャラ1人かボードの暗躍+1</data>
         </data>
       </data>
     </data>
@@ -409,7 +409,7 @@
 //敏捷A=10
 //格闘＝１</chat-palette>
   </character>
-  <character location.name="table" location.x="775" location.y="1200" posZ="0" rotate="0" roll="0">
+  <character location.name="table" location.x="550" location.y="800" posZ="0" rotate="0" roll="0">
     <data name="character">
       <data name="image">
         <data type="image" name="imageIdentifier">279e4b1752626f8999db01be0841292a891acb25f2ddbd0e116421c461c129ab</data>
@@ -417,7 +417,7 @@
       <data name="common">
         <data name="id">14</data>
         <data name="name">大物</data>
-        <data name="size">2</data>
+        <data name="size">1</data>
       </data>
       <data name="detail">
         <data name="リソース">
@@ -426,12 +426,12 @@
           <data name="暗躍" type="numberResource" currentValue="0">3</data>
         </data>
         <data name="情報">
-          <data type="" name="特性">脚本作成時、エリアの一つをテリトリーとして縄張りトークンを置く</data>
-          <data name="特性">脚本家は、大物がテリトリーにいるものとして脚本家能力を使用可</data>
+          <data type="note" name="特性">脚本作成時、エリアの一つをテリトリーとして縄張りトークンを置く</data>
+          <data name="特性" type="note">脚本家は、大物がテリトリーにいるものとして脚本家能力を使用可</data>
           <data type="" name="不安臨界">4</data>
         </data>
         <data name="友好能力">
-          <data name="友好5:1L1">テリトリーの他のキャラ1人の役職を知る</data>
+          <data name="友好5:1L1" type="note">テリトリーの他のキャラ1人の役職を知る</data>
         </data>
       </data>
     </data>
@@ -441,7 +441,7 @@
 //敏捷A=10
 //格闘＝１</chat-palette>
   </character>
-  <character location.name="table" location.x="900" location.y="275" posZ="0" rotate="0" roll="0">
+  <character location.name="table" location.x="550" location.y="150" posZ="0" rotate="0" roll="0">
     <data name="character">
       <data name="image">
         <data type="image" name="imageIdentifier">0f9c430a2bba8af0058602305931c55cbc8884ae4d5b5bc22af12096a5f7a2b5</data>
@@ -449,7 +449,7 @@
       <data name="common">
         <data name="id">15</data>
         <data name="name">医者</data>
-        <data name="size">2</data>
+        <data name="size">1</data>
       </data>
       <data name="detail">
         <data name="リソース">
@@ -473,7 +473,7 @@
 //敏捷A=10
 //格闘＝１</chat-palette>
   </character>
-  <character location.name="table" location.x="725" location.y="500" posZ="0" rotate="0" roll="0">
+  <character location.name="table" location.x="400" location.y="300" posZ="0" rotate="0" roll="0">
     <data name="character">
       <data name="image">
         <data type="image" name="imageIdentifier">70a567b465574b2fad8a82a5971722c18137aa55d84a0612f8cbd452ecb1f8e8</data>
@@ -481,7 +481,7 @@
       <data name="common">
         <data name="id">16</data>
         <data name="name">入院患者</data>
-        <data name="size">2</data>
+        <data name="size">1</data>
       </data>
       <data name="detail">
         <data name="リソース">
@@ -504,7 +504,7 @@
 //敏捷A=10
 //格闘＝１</chat-palette>
   </character>
-  <character location.name="table" location.x="700" location.y="275" posZ="0" rotate="0" roll="0">
+  <character location.name="table" location.x="400" location.y="150" posZ="0" rotate="0" roll="0">
     <data name="character">
       <data name="image">
         <data type="image" name="imageIdentifier">dad1fe5aa635dafd71f3e200e141b6a4c6bec1d54dded157a115e52bc8aa1e9c</data>
@@ -512,7 +512,7 @@
       <data name="common">
         <data name="id">17</data>
         <data name="name">ナース</data>
-        <data name="size">2</data>
+        <data name="size">1</data>
       </data>
       <data name="detail">
         <data name="リソース">
@@ -535,7 +535,7 @@
 //敏捷A=10
 //格闘＝１</chat-palette>
   </character>
-  <character location.name="table" location.x="1525" location.y="450" posZ="0" rotate="0" roll="0">
+  <character location.name="table" location.x="1000" location.y="300" posZ="0" rotate="0" roll="0">
     <data name="character">
       <data name="image">
         <data type="image" name="imageIdentifier">1f32ea9572b6e687c9298694bfaad2403ed088f40800844759bd6815dc364d7c</data>
@@ -543,7 +543,7 @@
       <data name="common">
         <data name="id">18</data>
         <data name="name">手先</data>
-        <data name="size">2</data>
+        <data name="size">1</data>
       </data>
       <data name="detail">
         <data name="リソース">
@@ -552,11 +552,11 @@
           <data name="暗躍" type="numberResource" currentValue="0">3</data>
         </data>
         <data name="情報">
-          <data type="" name="特性">ループ毎に脚本家の任意に初期エリアを変更可</data>
+          <data type="note" name="特性">ループ毎に脚本家の任意に初期エリアを変更可</data>
           <data type="" name="不安臨界">1</data>
         </data>
         <data name="友好能力">
-          <data name="友好3">自身が犯人の事件の発生を禁止</data>
+          <data name="友好3" type="note">自身が犯人の事件の発生を禁止</data>
         </data>
       </data>
     </data>
@@ -566,7 +566,7 @@
 //敏捷A=10
 //格闘＝１</chat-palette>
   </character>
-  <character location.name="table" location.x="600" location.y="1175" posZ="0" rotate="0" roll="0">
+  <character location.name="table" location.x="400" location.y="800" posZ="0" rotate="0" roll="0">
     <data name="character">
       <data name="image">
         <data type="image" name="imageIdentifier">4116c5380a6c39d33eb4b2c8e5d51c8742440d6224a0862ed799f57c87b7f750</data>
@@ -574,7 +574,7 @@
       <data name="common">
         <data name="id">19</data>
         <data name="name">鑑識官</data>
-        <data name="size">2</data>
+        <data name="size">1</data>
       </data>
       <data name="detail">
         <data name="リソース">
@@ -587,8 +587,8 @@
           <data type="" name="不安臨界">3</data>
         </data>
         <data name="友好能力">
-          <data name="友好2">(1L1)同一エリアの他のキャラ2人の任意のカウンター1つを移動させる</data>
-          <data name="友好5">(1L1)死体1つの役職を知る</data>
+          <data name="友好2" type="note">(1L1)同一エリアの他のキャラ2人の任意のカウンター1つを移動させる</data>
+          <data name="友好5" type="note">(1L1)死体1つの役職を知る</data>
         </data>
       </data>
     </data>
@@ -598,7 +598,7 @@
 //敏捷A=10
 //格闘＝１</chat-palette>
   </character>
-  <character location.name="table" location.x="400" location.y="1175" posZ="0" rotate="0" roll="0">
+  <character location.name="table" location.x="250" location.y="800" posZ="0" rotate="0" roll="0">
     <data name="character">
       <data name="image">
         <data type="image" name="imageIdentifier">a63e68d6cd1478264ce8c48e90f683ea4b87b571d2316687ebcc89b78537a6cb</data>
@@ -606,7 +606,7 @@
       <data name="common">
         <data name="id">20</data>
         <data name="name">A.I.</data>
-        <data name="size">2</data>
+        <data name="size">1</data>
       </data>
       <data name="detail">
         <data name="リソース">
@@ -615,12 +615,12 @@
           <data name="暗躍" type="numberResource" currentValue="0">3</data>
         </data>
         <data name="情報">
-          <data type="" name="特性">脚本作成時、このキャラは役職「パーソン」にできない</data>
-          <data name="特性">このキャラが犯人の事件発生を判定する場合、 全てのカウンターを不安カウンターとして扱う</data>
+          <data type="note" name="特性">脚本作成時、このキャラは役職「パーソン」にできない</data>
+          <data name="特性" type="note">このキャラが犯人の事件発生を判定する場合、 全てのカウンターを不安カウンターとして扱う</data>
           <data type="" name="不安臨界">4</data>
         </data>
         <data name="友好能力">
-          <data name="友好3">(1L1)公開シートに記載された事件1つの事件効果を解決する。犯人はA.I.であるかのように扱う。脚本家が行うすべての決定は、代わりにリーダーが行う(事件が発生したとはみなされない) </data>
+          <data name="友好3" type="note">(1L1)公開シートに記載された事件1つの事件効果を解決する。犯人はA.I.であるかのように扱う。脚本家が行うすべての決定は、代わりにリーダーが行う(事件が発生したとはみなされない) </data>
         </data>
       </data>
     </data>
@@ -630,7 +630,7 @@
 //敏捷A=10
 //格闘＝１</chat-palette>
   </character>
-  <character location.name="table" location.x="1550" location.y="1200" posZ="0" rotate="0" roll="0">
+  <character location.name="table" location.x="950" location.y="800" posZ="0" rotate="0" roll="0">
     <data name="character">
       <data name="image">
         <data type="image" name="imageIdentifier">f7640fb4d48cdb68929b6ce9fbe6c3288cd2d2c87a504b713b8ed844b698558e</data>
@@ -638,7 +638,7 @@
       <data name="common">
         <data name="id">21</data>
         <data name="name">教師</data>
-        <data name="size">2</data>
+        <data name="size">1</data>
       </data>
       <data name="detail">
         <data name="リソース">
@@ -651,8 +651,8 @@
           <data type="" name="不安臨界">2</data>
         </data>
         <data name="友好能力">
-          <data name="友好3">同一エリアの学生1人に不安±1</data>
-          <data name="友好4">(1L1)同一エリアの学生1人の役職を知る</data>
+          <data name="友好3" type="note">同一エリアの学生1人に不安±1</data>
+          <data name="友好4" type="note">(1L1)同一エリアの学生1人の役職を知る</data>
         </data>
       </data>
     </data>
@@ -662,7 +662,7 @@
 //敏捷A=10
 //格闘＝１</chat-palette>
   </character>
-  <character location.name="table" location.x="500" location.y="275" posZ="0" rotate="0" roll="0">
+  <character location.name="table" location.x="250" location.y="150" posZ="0" rotate="0" roll="0">
     <data name="character">
       <data name="image">
         <data type="image" name="imageIdentifier">b00616d3b895fa89cd00d7a539b2084c74d869008f2beeb848f08c7d3124e4fa</data>
@@ -670,7 +670,7 @@
       <data name="common">
         <data name="id">22</data>
         <data name="name">軍人</data>
-        <data name="size">2</data>
+        <data name="size">1</data>
       </data>
       <data name="detail">
         <data name="リソース">
@@ -694,7 +694,7 @@
 //敏捷A=10
 //格闘＝１</chat-palette>
   </character>
-  <character location.name="table" location.x="1725" location.y="1200" posZ="0" rotate="0" roll="0">
+  <character location.name="table" location.x="1100" location.y="800" posZ="0" rotate="0" roll="0">
     <data name="character">
       <data name="image">
         <data type="image" name="imageIdentifier">13fa9cf6df5ec7adc54b35684625cda9ff355d370e606994d302cef723363aeb</data>
@@ -702,7 +702,7 @@
       <data name="common">
         <data name="id">23</data>
         <data name="name">転校生</data>
-        <data name="size">2</data>
+        <data name="size">1</data>
       </data>
       <data name="detail">
         <data name="リソース">
@@ -711,11 +711,11 @@
           <data name="暗躍" type="numberResource" currentValue="0">3</data>
         </data>
         <data name="情報">
-          <data type="" name="特性">このキャラはループの準備においてボードに配置されず、登場指定日のターン開始フェイズに配置される</data>
+          <data type="note" name="特性">このキャラはループの準備においてボードに配置されず、登場指定日のターン開始フェイズに配置される</data>
           <data type="" name="不安臨界">2</data>
         </data>
         <data name="友好能力">
-          <data name="友好2">同一エリアの他のキャラ1人の暗躍カウンター1つを友好カウンターに置き換える</data>
+          <data name="友好2" type="note">同一エリアの他のキャラ1人の暗躍カウンター1つを友好カウンターに置き換える</data>
         </data>
       </data>
     </data>
@@ -725,7 +725,7 @@
 //敏捷A=10
 //格闘＝１</chat-palette>
   </character>
-  <character location.name="table" location.x="1525" location.y="225" posZ="0" rotate="0" roll="0">
+  <character location.name="table" location.x="1000" location.y="150" posZ="0" rotate="0" roll="0">
     <data name="character">
       <data name="image">
         <data type="image" name="imageIdentifier">a08ed57b80603d3d171620956799409a3c9eb7a5a10e5b49f24b5943b853ca83</data>
@@ -733,7 +733,7 @@
       <data name="common">
         <data name="id">24</data>
         <data name="name">黒猫</data>
-        <data name="size">2</data>
+        <data name="size">1</data>
       </data>
       <data name="detail">
         <data name="リソース">
@@ -742,8 +742,8 @@
           <data name="暗躍" type="numberResource" currentValue="0">3</data>
         </data>
         <data name="情報">
-          <data type="" name="特性">ループ開始時に、神社に暗躍+1</data>
-          <data name="特性">このキャラが犯人の事件の効果は「何も起きない」に変更される</data>
+          <data type="note" name="特性">ループ開始時に、神社に暗躍+1</data>
+          <data name="特性" type="note">このキャラが犯人の事件の効果は「何も起きない」に変更される</data>
           <data type="" name="不安臨界">0</data>
         </data>
         <data name="能力">
@@ -757,7 +757,7 @@
 //敏捷A=10
 //格闘＝１</chat-palette>
   </character>
-  <character location.name="table" location.x="2075" location.y="25" posZ="0" rotate="0" roll="0">
+  <character location.name="table" location.x="1375" location.y="25" posZ="0" rotate="0" roll="0">
     <data name="character">
       <data name="image">
         <data type="image" name="imageIdentifier">null</data>
@@ -779,7 +779,7 @@
 //敏捷A=10
 //格闘＝１</chat-palette>
   </character>
-  <character location.name="table" location.x="375" location.y="800" posZ="0" rotate="0" roll="0">
+  <character location.name="table" location.x="250" location.y="525" posZ="0" rotate="0" roll="0">
     <data name="character">
       <data name="image">
         <data type="image" name="imageIdentifier">null</data>
@@ -801,7 +801,7 @@
 //敏捷A=10
 //格闘＝１</chat-palette>
   </character>
-  <character location.name="table" location.x="2075" location.y="800" posZ="0" rotate="0" roll="0">
+  <character location.name="table" location.x="1375" location.y="525" posZ="0" rotate="0" roll="0">
     <data name="character">
       <data name="image">
         <data type="image" name="imageIdentifier">null</data>
@@ -823,7 +823,7 @@
 //敏捷A=10
 //格闘＝１</chat-palette>
   </character>
-  <character location.name="table" location.x="375" location.y="25" posZ="0" rotate="0" roll="0">
+  <character location.name="table" location.x="250" location.y="25" posZ="0" rotate="0" roll="0">
     <data name="character">
       <data name="image">
         <data type="image" name="imageIdentifier">null</data>
@@ -845,7 +845,7 @@
 //敏捷A=10
 //格闘＝１</chat-palette>
   </character>
-  <character location.name="table" location.x="525" location.y="500" posZ="0" rotate="0" roll="0">
+  <character location.name="table" location.x="250" location.y="300" posZ="0" rotate="0" roll="0">
     <data name="character">
       <data name="image">
         <data type="image" name="imageIdentifier">c45d6a3a733b0168f67471497f2da9bf916a803d2266876bd532aeaccbd400af</data>
@@ -853,7 +853,7 @@
       <data name="common">
         <data name="id">50</data>
         <data name="name">学者</data>
-        <data name="size">2</data>
+        <data name="size">1</data>
       </data>
       <data name="detail">
         <data name="リソース">
@@ -862,11 +862,11 @@
           <data name="暗躍" type="numberResource" currentValue="0">3</data>
         </data>
         <data name="情報">
-          <data type="" name="特性">ループ開始時の「カウンターの除去・配置」フェイズに、このキャラにカウンターのいずれかを+1</data>
+          <data type="note" name="特性">ループ開始時の「カウンターの除去・配置」フェイズに、このキャラにカウンターのいずれかを+1</data>
           <data type="" name="不安臨界">2</data>
         </data>
         <data name="友好能力">
-          <data name="友好3">このキャラから全てのカウンターを取り除く。その後、Exゲージを使用している場合、その値を±1</data>
+          <data name="友好3" type="note">このキャラから全てのカウンターを取り除く。その後、Exゲージを使用している場合、その値を±1</data>
         </data>
       </data>
     </data>
@@ -876,7 +876,7 @@
 //敏捷A=10
 //格闘＝１</chat-palette>
   </character>
-  <character location.name="table" location.x="1750" location.y="450" posZ="0" rotate="0" roll="0">
+  <character location.name="table" location.x="1150" location.y="300" posZ="0" rotate="0" roll="0">
     <data name="character">
       <data name="image">
         <data type="image" name="imageIdentifier">ac3b5a7818bc02e2531c9b75b5760021564b6567bab219fb30566f4f7a0efa6c</data>
@@ -884,7 +884,7 @@
       <data name="common">
         <data name="id">51</data>
         <data name="name">幻想</data>
-        <data name="size">2</data>
+        <data name="size">1</data>
       </data>
       <data name="detail">
         <data name="リソース">
@@ -893,13 +893,13 @@
           <data name="暗躍" type="numberResource" currentValue="0">3</data>
         </data>
         <data name="情報">
-          <data type="" name="特性">このキャラには行動カードをセットできない</data>
-          <data name="特性">このキャラのいるボードにセットされた行動カードの効果は、このキャラにも与えられる</data>
+          <data type="note" name="特性">このキャラには行動カードをセットできない</data>
+          <data name="特性" type="note">このキャラのいるボードにセットされた行動カードの効果は、このキャラにも与えられる</data>
           <data type="" name="不安臨界">3</data>
         </data>
         <data name="友好能力">
-          <data name="友好3">(1L1)同一エリアのキャラ1人を任意エリアに移動させる</data>
-          <data name="友好4">このキャラをボードから取り除く</data>
+          <data name="友好3" type="note">(1L1)同一エリアのキャラ1人を任意エリアに移動させる</data>
+          <data name="友好4" type="note">このキャラをボードから取り除く</data>
         </data>
       </data>
     </data>
@@ -909,7 +909,7 @@
 //敏捷A=10
 //格闘＝１</chat-palette>
   </character>
-  <character location.name="table" location.x="2075" location.y="1175" posZ="0" rotate="0" roll="0">
+  <character location.name="table" location.x="1400" location.y="800" posZ="0" rotate="0" roll="0">
     <data name="character">
       <data name="image">
         <data type="image" name="imageIdentifier">ad1f40f76f0b67213d9be55701c323ef0c65f94fb30caad5991c4056d6500be7</data>
@@ -917,7 +917,7 @@
       <data name="common">
         <data name="id">52</data>
         <data name="name">女の子</data>
-        <data name="size">2</data>
+        <data name="size">1</data>
       </data>
       <data name="detail">
         <data name="リソース">
@@ -930,8 +930,8 @@
           <data type="" name="不安臨界">1</data>
         </data>
         <data name="友好能力">
-          <data name="友好1">このループ中、このキャラは学校以外に移動できるようになる</data>
-          <data name="友好3">(1L1)このキャラを現在地と隣り合ったエリアに移動させる</data>
+          <data name="友好1" type="note">このループ中、このキャラは学校以外に移動できるようになる</data>
+          <data name="友好3" type="note">(1L1)このキャラを現在地と隣り合ったエリアに移動させる</data>
         </data>
       </data>
     </data>
@@ -941,7 +941,7 @@
 //敏捷A=10
 //格闘＝１</chat-palette>
   </character>
-  <card-stack location.name="table" location.x="725" location.y="1650" posZ="0" rotate="90" zindex="848" owner="" isShowTotal="true">
+  <card-stack location.name="table" location.x="75" location.y="1125" posZ="0" rotate="90" zindex="875" owner="" isShowTotal="true">
     <data name="card-stack">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
@@ -1521,7 +1521,7 @@
       </card>
     </node>
   </card-stack>
-  <card-stack location.name="table" location.x="1125" location.y="1650" posZ="0" rotate="0" zindex="849" owner="" isShowTotal="true">
+  <card-stack location.name="table" location.x="850" location.y="1125" posZ="0" rotate="0" zindex="876" owner="" isShowTotal="true">
     <data name="card-stack">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
@@ -1541,7 +1541,7 @@
           </data>
           <data name="common">
             <data name="name">[脚本家]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
@@ -1555,7 +1555,7 @@
           </data>
           <data name="common">
             <data name="name">[脚本家]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
@@ -1569,7 +1569,7 @@
           </data>
           <data name="common">
             <data name="name">[脚本家]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
@@ -1583,7 +1583,7 @@
           </data>
           <data name="common">
             <data name="name">[脚本家]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
@@ -1597,7 +1597,7 @@
           </data>
           <data name="common">
             <data name="name">[脚本家]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
@@ -1611,7 +1611,7 @@
           </data>
           <data name="common">
             <data name="name">[脚本家]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
@@ -1625,7 +1625,7 @@
           </data>
           <data name="common">
             <data name="name">[脚本家]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
@@ -1639,7 +1639,7 @@
           </data>
           <data name="common">
             <data name="name">[脚本家]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
@@ -1653,7 +1653,7 @@
           </data>
           <data name="common">
             <data name="name">[脚本家]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
@@ -1667,14 +1667,14 @@
           </data>
           <data name="common">
             <data name="name">[脚本家]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
       </card>
     </node>
   </card-stack>
-  <card-stack location.name="table" location.x="1425" location.y="1650" posZ="0" rotate="0" zindex="823" owner="" isShowTotal="true">
+  <card-stack location.name="table" location.x="1025" location.y="1125" posZ="0" rotate="0" zindex="858" owner="" isShowTotal="true">
     <data name="card-stack">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
@@ -1694,7 +1694,7 @@
           </data>
           <data name="common">
             <data name="name">[主人公1]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
@@ -1708,7 +1708,7 @@
           </data>
           <data name="common">
             <data name="name">[主人公1]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
@@ -1722,7 +1722,7 @@
           </data>
           <data name="common">
             <data name="name">[主人公1]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
@@ -1736,7 +1736,7 @@
           </data>
           <data name="common">
             <data name="name">[主人公1]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
@@ -1750,7 +1750,7 @@
           </data>
           <data name="common">
             <data name="name">[主人公1]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
@@ -1764,7 +1764,7 @@
           </data>
           <data name="common">
             <data name="name">[主人公1]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
@@ -1778,7 +1778,7 @@
           </data>
           <data name="common">
             <data name="name">[主人公1]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
@@ -1792,14 +1792,14 @@
           </data>
           <data name="common">
             <data name="name">[主人公1]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
       </card>
     </node>
   </card-stack>
-  <card-stack location.name="table" location.x="1700" location.y="1650" posZ="0" rotate="0" zindex="824" owner="" isShowTotal="true">
+  <card-stack location.name="table" location.x="1200" location.y="1125" posZ="0" rotate="0" zindex="859" owner="" isShowTotal="true">
     <data name="card-stack">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
@@ -1819,7 +1819,7 @@
           </data>
           <data name="common">
             <data name="name">[主人公2]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
@@ -1833,7 +1833,7 @@
           </data>
           <data name="common">
             <data name="name">[主人公2]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
@@ -1847,7 +1847,7 @@
           </data>
           <data name="common">
             <data name="name">[主人公2]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
@@ -1861,7 +1861,7 @@
           </data>
           <data name="common">
             <data name="name">[主人公2]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
@@ -1875,7 +1875,7 @@
           </data>
           <data name="common">
             <data name="name">[主人公2]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
@@ -1889,7 +1889,7 @@
           </data>
           <data name="common">
             <data name="name">[主人公2]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
@@ -1903,7 +1903,7 @@
           </data>
           <data name="common">
             <data name="name">[主人公2]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
@@ -1917,14 +1917,14 @@
           </data>
           <data name="common">
             <data name="name">[主人公2]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
       </card>
     </node>
   </card-stack>
-  <card-stack location.name="table" location.x="1975" location.y="1650" posZ="0" rotate="0" zindex="825" owner="" isShowTotal="true">
+  <card-stack location.name="table" location.x="1375" location.y="1125" posZ="0" rotate="0" zindex="860" owner="" isShowTotal="true">
     <data name="card-stack">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
@@ -1944,7 +1944,7 @@
           </data>
           <data name="common">
             <data name="name">[主人公3]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
@@ -1958,7 +1958,7 @@
           </data>
           <data name="common">
             <data name="name">[主人公3]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
@@ -1972,7 +1972,7 @@
           </data>
           <data name="common">
             <data name="name">[主人公3]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
@@ -1986,7 +1986,7 @@
           </data>
           <data name="common">
             <data name="name">[主人公3]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
@@ -2000,7 +2000,7 @@
           </data>
           <data name="common">
             <data name="name">[主人公3]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
@@ -2014,7 +2014,7 @@
           </data>
           <data name="common">
             <data name="name">[主人公3]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
@@ -2028,7 +2028,7 @@
           </data>
           <data name="common">
             <data name="name">[主人公3]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
@@ -2042,14 +2042,14 @@
           </data>
           <data name="common">
             <data name="name">[主人公3]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
       </card>
     </node>
   </card-stack>
-  <card-stack location.name="table" location.x="100" location.y="1625" posZ="0" rotate="0" zindex="853" owner="" isShowTotal="true">
+  <card-stack location.name="table" location.x="275" location.y="1125" posZ="0" rotate="0" zindex="874" owner="" isShowTotal="true">
     <data name="card-stack">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
@@ -2069,7 +2069,7 @@
           </data>
           <data name="common">
             <data name="name">[ExtraA]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
@@ -2083,21 +2083,7 @@
           </data>
           <data name="common">
             <data name="name">[ExtraB]</data>
-            <data name="size">3</data>
-          </data>
-          <data name="detail"></data>
-        </data>
-      </card>
-      <card location.name="a7ed82ab-408e-4661-a5f6-2842325043e2" location.x="1050" location.y="1950" posZ="0" state="1" rotate="0" owner="" zindex="0">
-        <data name="card">
-          <data name="image">
-            <data type="image" name="imageIdentifier"></data>
-            <data type="image" name="front">03f21e59478aabd2f180078b9320a77fbbeb58987f3974579eaba61708f34529</data>
-            <data type="image" name="back">aec664692a0c3fc73a5224578fbfb6424a6233aede110df56a74bb7b45a61246</data>
-          </data>
-          <data name="common">
-            <data name="name">[ExtraD]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
@@ -2111,14 +2097,28 @@
           </data>
           <data name="common">
             <data name="name">[ExtraC]</data>
-            <data name="size">3</data>
+            <data name="size">2</data>
+          </data>
+          <data name="detail"></data>
+        </data>
+      </card>
+      <card location.name="a7ed82ab-408e-4661-a5f6-2842325043e2" location.x="1050" location.y="1950" posZ="0" state="1" rotate="0" owner="" zindex="0">
+        <data name="card">
+          <data name="image">
+            <data type="image" name="imageIdentifier"></data>
+            <data type="image" name="front">03f21e59478aabd2f180078b9320a77fbbeb58987f3974579eaba61708f34529</data>
+            <data type="image" name="back">aec664692a0c3fc73a5224578fbfb6424a6233aede110df56a74bb7b45a61246</data>
+          </data>
+          <data name="common">
+            <data name="name">[ExtraD]</data>
+            <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
       </card>
     </node>
   </card-stack>
-  <card location.name="table" location.x="350" location.y="1675" posZ="0" state="0" rotate="0" owner="" zindex="846">
+  <card location.name="table" location.x="425" location.y="1175" posZ="0" state="0" rotate="0" owner="" zindex="873">
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
@@ -2127,12 +2127,12 @@
       </data>
       <data name="common">
         <data name="name">縄張</data>
-        <data name="size">2</data>
+        <data name="size">1</data>
       </data>
       <data name="detail"></data>
     </data>
   </card>
-  <card location.name="table" location.x="525" location.y="1675" posZ="0" state="0" rotate="0" owner="" zindex="847">
+  <card location.name="table" location.x="525" location.y="1175" posZ="0" state="0" rotate="0" owner="" zindex="872">
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
@@ -2141,12 +2141,12 @@
       </data>
       <data name="common">
         <data name="name">守護</data>
-        <data name="size">2</data>
+        <data name="size">1</data>
       </data>
       <data name="detail"></data>
     </data>
   </card>
-  <card location.name="table" location.x="2475" location.y="1675" posZ="0" state="1" rotate="0" owner="" zindex="835">
+  <card location.name="table" location.x="1675" location.y="1075" posZ="0" state="0" rotate="0" owner="" zindex="861">
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
@@ -2155,12 +2155,12 @@
       </data>
       <data name="common">
         <data name="name">日付</data>
-        <data name="size">2</data>
+        <data name="size">1</data>
       </data>
       <data name="detail"></data>
     </data>
   </card>
-  <card location.name="table" location.x="2600" location.y="1675" posZ="0" state="0" rotate="0" owner="" zindex="837">
+  <card location.name="table" location.x="1750" location.y="1075" posZ="0" state="0" rotate="0" owner="" zindex="862">
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
@@ -2169,12 +2169,12 @@
       </data>
       <data name="common">
         <data name="name">事件</data>
-        <data name="size">2</data>
+        <data name="size">1</data>
       </data>
       <data name="detail"></data>
     </data>
   </card>
-  <card location.name="table" location.x="2725" location.y="1675" posZ="0" state="0" rotate="0" owner="" zindex="833">
+  <card location.name="table" location.x="1850" location.y="1075" posZ="0" state="0" rotate="0" owner="" zindex="863">
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
@@ -2183,12 +2183,12 @@
       </data>
       <data name="common">
         <data name="name">ループ</data>
-        <data name="size">2</data>
+        <data name="size">1</data>
       </data>
       <data name="detail"></data>
     </data>
   </card>
-  <card location.name="table" location.x="2850" location.y="1675" posZ="0" state="1" rotate="0" owner="" zindex="836">
+  <card location.name="table" location.x="1925" location.y="1075" posZ="0" state="1" rotate="0" owner="" zindex="864">
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
@@ -2197,54 +2197,12 @@
       </data>
       <data name="common">
         <data name="name">拡張</data>
-        <data name="size">2</data>
+        <data name="size">1</data>
       </data>
       <data name="detail"></data>
     </data>
   </card>
-  <card location.name="table" location.x="2625" location.y="1675" posZ="0" state="0" rotate="0" owner="" zindex="843">
-    <data name="card">
-      <data name="image">
-        <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">efa7eeb9b777cd4fda8ea9dc66daf52398c6337c95c1e02cd04bc076e8a67a34</data>
-        <data type="image" name="back">efa7eeb9b777cd4fda8ea9dc66daf52398c6337c95c1e02cd04bc076e8a67a34</data>
-      </data>
-      <data name="common">
-        <data name="name">事件</data>
-        <data name="size">2</data>
-      </data>
-      <data name="detail"></data>
-    </data>
-  </card>
-  <card location.name="table" location.x="2600" location.y="1700" posZ="0" state="0" rotate="0" owner="" zindex="842">
-    <data name="card">
-      <data name="image">
-        <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">efa7eeb9b777cd4fda8ea9dc66daf52398c6337c95c1e02cd04bc076e8a67a34</data>
-        <data type="image" name="back">efa7eeb9b777cd4fda8ea9dc66daf52398c6337c95c1e02cd04bc076e8a67a34</data>
-      </data>
-      <data name="common">
-        <data name="name">事件</data>
-        <data name="size">2</data>
-      </data>
-      <data name="detail"></data>
-    </data>
-  </card>
-  <card location.name="table" location.x="2600" location.y="1625" posZ="0" state="0" rotate="0" owner="" zindex="844">
-    <data name="card">
-      <data name="image">
-        <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">efa7eeb9b777cd4fda8ea9dc66daf52398c6337c95c1e02cd04bc076e8a67a34</data>
-        <data type="image" name="back">efa7eeb9b777cd4fda8ea9dc66daf52398c6337c95c1e02cd04bc076e8a67a34</data>
-      </data>
-      <data name="common">
-        <data name="name">事件</data>
-        <data name="size">2</data>
-      </data>
-      <data name="detail"></data>
-    </data>
-  </card>
-  <card location.name="table" location.x="1425" location.y="1900" posZ="0" state="1" rotate="0" owner="" zindex="852">
+  <card location.name="table" location.x="1025" location.y="1350" posZ="0" state="1" rotate="0" owner="" zindex="867">
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
@@ -2253,7 +2211,7 @@
       </data>
       <data name="common">
         <data name="name">[リーダー]</data>
-        <data name="size">3</data>
+        <data name="size">2</data>
       </data>
       <data name="detail"></data>
     </data>
